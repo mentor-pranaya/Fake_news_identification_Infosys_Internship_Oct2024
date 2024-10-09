@@ -1,0 +1,18 @@
+Name of the Dataset: Trump Fake News Dataset
+
+1.Source: Kaggle(https://www.kaggle.com/datasets/javagarm/trump-fake-news-dataset/data)
+
+2.Number of Data Points and Features:
+- Data Points: 20,800
+- Features: 5
+
+3.Features Description:
+	- id: Unique identifier for each news article.
+	- title: The title of the news article.
+	- author: The author of the news article.
+	- text: The main content of the news article.
+	- label: Indicator of the article's authenticity(0 or 1):
+   		- 1 indicates the news is fake.
+   		- 0 indicates the news is real.
+
+4. Final Data - Yes
