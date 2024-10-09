@@ -1,0 +1,10 @@
+1.Source - Kaggle
+2.No of Datapoints - 45,000(combined)/
+3.Features- Title, Text(Actual News), Subject, Date, Label(Should be added)
+4.Feature Description
+   1.Title - The Title of the News
+   2.Text - Contains the description of news
+   3.Subject - What type of News it is(Political, Cultural, etc...)
+   4.Date - Th Date of Published News
+   5.Label - Tells weather the news is fake or not
+5.The Dataset is almost finalized (need to add another column which tells weather the News is Fake or Ture after combining both True and False Dataset )
