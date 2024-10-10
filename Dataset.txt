@@ -25,4 +25,4 @@ subject: which type of news it is like politicsNews, Government News, left-news,
 date: date of the news
 label: shows 0(fake news) or 1(True news)
 
-dataset Not Finalize.
+dataset Finalized.
