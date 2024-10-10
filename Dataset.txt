@@ -1,4 +1,4 @@
-Project Title: Identification if Fake News
+Project Title: Identification of Fake News
 Student Name: Hardik Makwana
 
 Source -1: Kaggle
