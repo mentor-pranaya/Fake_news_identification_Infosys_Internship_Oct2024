@@ -1,0 +1,12 @@
+Project:Fake news Identification
+Source of Data:Kaggle.
+Number of data points:25177
+
+Features:Title,Text,Subject,Date,Label.
+   1.Id:It describes unique identity of given news.
+   2.Title:It describes what an incident is.....
+   3.Text:It describes the causes of an incident.
+   4.Author:who given by the news.
+   5.Label:It is either real news or fake news.
+link:https://www.youtube.com/live/xyq-zYr1cnI?si=Vq7aEetNoVhECVmy
+collection of data is completed.
