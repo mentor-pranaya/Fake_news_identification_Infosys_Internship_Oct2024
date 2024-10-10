@@ -1,0 +1,10 @@
+1.Source-Github "https://github.com/SushwanthReddy/Fake-News-Detection-using-Machine-Learning/tree/master/data"
+  combine 2 csv file one for fake which have 23538 datapoints a d another one is for true which have 21416 datapoints and add one more column as level which tells the news is fake or real
+2. No. of datapoints : 44955
+3. FEATURES -title,text,subject,date,level
+     TITLE: title of news
+     TEXT: about news
+     SUBJECT: Show the type of news
+     DATE : date of news
+     LEVEL: news is real or fake
+4. final data which I collect
