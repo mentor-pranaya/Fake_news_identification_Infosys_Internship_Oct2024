@@ -1,0 +1,14 @@
+Project Title: Identification of Fake News
+Student Name: MANYAM DURGA SAI PRASAD
+
+Source -1: Kaggle
+link: https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets
+There are 2 .csv files named as True.csv(53 MB) and False.csv(62 MB).
+Data points (Rows): 44921 
+Features (Columns): 4
+Feature Names : title, text, subject, date, label
+title: shows title(heading) of News
+text: content(text) about News
+subject: which type of news it is like politicsNews, Government News, left-news, worldnews etc.
+date: date of the news
+label: shows 0(fake news) or 1(True news)
