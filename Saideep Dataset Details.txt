@@ -1,0 +1,22 @@
+﻿Number of Datapoints - 44920
+
+
+Number of Features - 5
+
+
+Feature Explanation - 
+1] Title - Title of the News.
+2] Text - Content of the News.
+3] Subject - Type of the News Article.
+4] Date - Date of the News.
+5] Label - Whether it is Fake or Real News.
+
+
+This is My Finalised Data.
+
+
+Source - Kaggle.
+Link - https://www.kaggle.com/datasets/bhavikjikadara/fake-news-detection.
+
+
+Environment - Jupyter Notebook
