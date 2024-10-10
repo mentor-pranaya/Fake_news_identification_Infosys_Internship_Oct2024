@@ -1,0 +1,18 @@
+								DATA-SET DESCRIPTION
+
+
+1. Source- Kaggle " https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets ".
+	-Combined fake and true news data in one file and added a column "type" which tells the information is true (with 1) or false( with 0).
+
+2. Number of data points -44941
+	TRUE data points- 21438
+	FLASE datapoints-23503
+
+3. FEATURES- title,text,subject,data,type(1/0)
+	>TITLE- TITLE OF NEWS 
+	>TEXT- DESCRIPTION OF THE NEWS
+	>SUBJECT- Shows Type of News 
+	>DATA - Shows date of news 
+	>TYPE- shows news is true or flase news(1(true) and 0(flase))
+
+4. Final data- This is the final dataset which I want to use further.
