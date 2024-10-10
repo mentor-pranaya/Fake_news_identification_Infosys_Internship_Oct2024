@@ -1,0 +1,4 @@
+1. Source - Kaggle, Github
+2. No of rows - 50,000
+3. Features- Title, Author, Category, Date, True/False
+4. Dataset has been compiled, but requires formatting.
