@@ -1,0 +1,22 @@
+Project Title : Fake News Detection
+Name: Prajwal Kumar V Gutti
+
+Source: Kaggle
+Link: https://drive.google.com/file/d/10udxcwySufshS6b3F1Z1mKCsQzsQ5jR6/view?usp=drive_link
+
+Dataset Consists Of:
+23197 Datapoints
+4 Data Features 
+
+Data Features are:
+Title - Which Tells us about the title of the news
+url - from where the news is published link
+source domain - the domain or website of the published news
+real - Output column which tells the news is real or fake
+       if real news output as 1 or fake news output as 0
+
+
+This is Finalized Data
+
+Thank You Madam                                        Project Guide 
+                                                       Pranaya Madam
