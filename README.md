@@ -18,3 +18,17 @@ Identify the text as fishy or not using neural nets.
 4. Hyperparameter tuning
 5. Performance metrics
 6. Presentation and Documentation
+
+
+
+Text file
+keep
+Pinned
+1. Source
+2. number of data points and features
+3. explain each feature
+4. FInal data or not
+pranaya
+5:57 PM
+branch : name
+give the link of the source
