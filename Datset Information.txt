@@ -16,3 +16,4 @@ Name of the Dataset: Trump Fake News Dataset
    		- 0 indicates the news is real.
 
 4. Final Data - Yes
+5. IDE - Jupyter Notebook
