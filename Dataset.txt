@@ -26,3 +26,5 @@ date: date of the news
 label: shows 0(fake news) or 1(True news)
 
 dataset Finalized.
+
+IDE For Project : Jupyter Notebook, Google Colab(to train a model - if required)
