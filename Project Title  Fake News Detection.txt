@@ -15,6 +15,7 @@ source domain - the domain or website of the published news
 real - Output column which tells the news is real or fake
        if real news output as 1 or fake news output as 0
 
+Platform Using : Jupiter NoteBook 
 
 This is Finalized Data
 
