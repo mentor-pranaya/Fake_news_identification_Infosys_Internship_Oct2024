@@ -1,0 +1,30 @@
+I used Fake News Detection dataset from Kaggle.
+Below is the link of the dataset:
+https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data
+
+It contains 2 csv files:
+1. true.csv
+2. fake.csv
+
+There are 4 features in each dataset.
+
+Feature Explanation:
+1. Title
+2. Text
+3. Subject
+4. Date
+
+
+Fake.csv file contains (23481,4)
+True.csv file contains (21417,4)
+
+I combined both the CSV file using python code and renamed the final dataset as "fake_news.csv"
+
+The final Dataset contains (44898,4)
+Feature Explanation:
+1. Title
+2. Text
+3. Date
+4. Category
+
+Here category feature contain two values "FAKE" as fake news and "TRUE" as true news
