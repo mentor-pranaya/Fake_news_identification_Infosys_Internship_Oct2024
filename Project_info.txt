@@ -1,0 +1,9 @@
+### The Fake News Detection Application based on Deep Learning ###
+
+Step 1: Downloaded the Dataset csv from Kaggle an open source platform.
+-link : https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets
+-features: Dataset contains two csv file one is true and one is with fake news.
+-columns: each csv file consist four columns that are: title, text, subject, and date.
+
+Step 2: Setup the IDE to perform EDA on dataset.
+-Create the environment with Jupyter Notebook to load the dataset.
