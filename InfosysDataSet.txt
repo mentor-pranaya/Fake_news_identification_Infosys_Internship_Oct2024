@@ -1,0 +1,15 @@
+Source-GitHub
+Number of DataPoints -: 23383(combined)
+features -: Title , id , news_url ,fake/tue,title , tweet_ids
+
+Feature Description
+-------------------
+title -: Title of the news.
+id -: unique identifider for each news.
+news_url -: url of the article from web that published that news.
+fake/true -: 0 indicates fake and 1 indicates true.
+tweet_ids -: Tweet ids of tweets shareing the news .this field is list of tweet ids seperated by tab.
+
+DataSet link :- https://drive.google.com/drive/folders/1rQdYJYhp_DuQvuXn2VTYhPaPw6e-5T9f?usp=drive_link
+
+This in my finalized dataset.  
