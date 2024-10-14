@@ -1,0 +1,17 @@
+Dataset Description
+
+1. This is the final dataset for data exploration and  preprocessing 
+
+2. Number of data points-44919
+>False datapoints-23502
+>True data points- 21417
+	
+3. Features- title, text, subject, data, classification(0 or 1)
+>title- Title of news 
+>text- Description of the news
+>subject- Type of news 
+>date - Date of news 
+>classification- Shows whether the news is true or fake news(0 is Fake and 1 is True)
+
+4. Source of dataset - Kaggle 
+>https://www.kaggle.com/code/therealsampat/fake-news-detection/input
