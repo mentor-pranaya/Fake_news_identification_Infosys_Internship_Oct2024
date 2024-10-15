@@ -6,4 +6,11 @@ Step 1: Downloaded the Dataset csv from Kaggle an open source platform.
 -columns: each csv file consist four columns that are: title, text, subject, and date.
 
 Step 2: Setup the IDE to perform EDA on dataset.
--Create the environment with Jupyter Notebook to load the dataset.
+-Create the environment as IDE with Google Colab to load the dataset and further processing like EDA.
+
+Step 3: Data Cleaning and Preprocessing.
+-Labelled both of the Datasets as value=1 for True news and value=2 for Fake news.
+-Concatenate both of the Datasets as df to get the Master Dataset.
+-Import Seaborn and Matplotlib libraries of Python to visualize the Data.
+-Searched for the missing values in the Dataset.
+-Drop the unnecessary columns from the Dataset like 'title' and 'date'.
