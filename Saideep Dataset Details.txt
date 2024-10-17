@@ -26,7 +26,8 @@ Environment - Jupyter Notebook
 	2.data exploration done and understood its datatypes and description of data.
 	3.removed unnecessary columns from the data set .
 	4 removal of null values and duplicates - removal of 209 duplicate rows done and no null values found.
-  	5.plotted histogram , bar graph and pie chart after cleaning the data- comparison between true and false news dataset is done via these graph.
+	5.lowercased the dataset.
+  	6.plotted histogram , bar graph and pie chart after cleaning the data- comparison between true and false news dataset is done via these graph.
 	
  	CURRENT DATASET RECORDS- 44668
 	PRESENT COLUMNS IN USE- TITLE,TEXT,LABEL(0,1)
