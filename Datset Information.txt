@@ -17,3 +17,4 @@ Name of the Dataset: Trump Fake News Dataset
 
 4. Final Data - Yes
 5. IDE - Jupyter Notebook
+6. Completed Data preprocessing with the help of WordNet Lemmatizer.
