@@ -1,0 +1,10 @@
+
+Dataset source -Kaggle.
+Link - https://www.kaggle.com/datasets/jainpooja/fake-news-detection
+
+There were two separate dataset named as True.csv and Fake.csv and I merged then in single file.
+Each csv file has 4 columns title, text, subject and date.
+Date and subjects were not necessasry so I removed them and added a new feature named label.
+
+True.csv file has 21417 and Fake.csv file has 23502 including duplicates and null values.
+Fake.csv has 17903 unique values and True.csv has 20826 unique values.
