@@ -1,13 +1,19 @@
 Source-GitHub
-Number of DataPoints -: 78098(combined)
-features -: Title , Text , label
+Number of DataPoints -: 25117(combined)
+features -: id ,Title , author , Text , label
 
 Feature Description
 -------------------
-title -: Description of the News.
-Text -: Contains the News.
-label-: 0 indicates fake and 1 indicates true.
+train.csv: A full training dataset with the following attributes:
 
-DataSet link :- https://drive.google.com/file/d/1WLKlqwHWPMkZlqZa2ZCwZ9TfEJmyaCgL/view?usp=sharing
+id: unique id for a news article
+title: the title of a news article
+author: author of the news article
+text: the text of the article; could be incomplete
+label: a label that marks the article as potentially unreliable
+1: unreliable
+0: reliable
 
-This in my finalized dataset.   
+DataSet link :- https://drive.google.com/file/d/1R6V-DKzudpGZSlCKYpccfqvT--xsr1me/view?usp=sharing
+
+This in my finalized dataset.  
