@@ -1,38 +1,80 @@
 # Fake News Identification Project by Ejaz Ahmed ( Infosys Internship Intern )
 
-  Github Branch Name :- ejaz
+  Github Branch Name :- ejaz 
 
-# Modules to be implemented :-
-1. Data Collection – Text Corpus related to news articles
-2. Data Exploration (EDA) and Data Preprocessing
-3. Build a deep learning model
-4. Hyperparameter tuning
-5. Performance metrics
-6. Presentation and Documentation
+# IDE Information :-
+  This project is developed using Visual Studio Code (VS Code) as the primary Integrated Development Environment (IDE).
 
 # 1)Data Collection info :-
 
+  Path of dataset :- Fake_news_identification_Infosys_Internship_Oct2024/data/fake_news_data.csv
+
 1) Source :- Kaggle  ( Download link below here )
 
-            https://storage.googleapis.com/kaggle-data-sets/2623949/4484183/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20241008%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20241008T083822Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=585813b3a4011bcc4b4a69bf78979044b20a504e17762231ab40383651c95dc861f757711868daa6eef7f83acd588a79f52b774a62a0dd28abb8afc6bd3261c894f713bf49a5c164ced8c4379333ecb4df870ec96ffe58581983f5b2b81854edc11daa3ac623fe867f43a8fbf7728b0da288594417eaa4ba2f4b6cdb3ca922cd6be64a785d9f9849a7f7a6dcf641285dccad25dfdd4988c77e4ff1aa188f78f73eaec862634a6ba9f77a6c75761d2bf6f17aa8fb795df431f1d6db18758e6e36ef4dcfb36892b54bf6077a9828a1838b6b6844656c7c7fd9ce1e42f60441b47370e1468dab56ba50c499f40715521fc2b48a096856fa3e0149fb23274ea5b96e
+             https://www.kaggle.com/datasets/algord/fake-news?resource=download
 
 
 2) Number of Data Points and Features :-
 
    Data Points: The dataset contains 15,438 news entries.
-   Features: There are 5 features in the dataset.
+   Features: There are 6 features in the dataset.
 
 
 3) Explaining Each Features :-
 
    article_id: A unique number assigned to each article.
    title: The headline of the article.
+   description: Description for the news article.
    news_url: The URL linking to the full article.
    source_domain: The website or media outlet where the article was published.
    real: A binary value (0 or 1) that indicates whether the news is real (1) or fake (0).
 
 
-4) Final Data or Not :-
 
-   Finalized data set
+
+
+
+# 2) Data Exploration and Data Preprocessing
+
+* Data Exploration Steps:-
+
+1) Load the Dataset:
+   Read the CSV file using Pandas.
+
+2) Initial Info:
+   Show basic info about the dataset and print the first five rows.
+   
+3) Check for Missing Values:
+   Count missing values in each column and total missing entries.
+
+4) Check for Duplicates:
+   Count duplicate titles to ensure data quality.
+
+5) Real vs. Fake News Distribution:
+   Show how many articles are real and how many are fake.
+
+6) Visualize Distribution:
+   Create a bar chart to show the percentage of real vs. fake news.
+
+7) Remaining Data Points:
+   Print the count of data points left after cleaning.
+
+
+ * Data Preprocessing Steps:-
+
+1) Lowercasing: 
+   All text in the description column is converted to lowercase.
+
+2) Removing Punctuation and Numbers:
+   Any punctuation and numbers are removed from the descriptions.
+
+3) Handling Missing Values:
+   Missing descriptions are replaced with an empty string.
+
+4) Checking for Duplicates:
+   Duplicates in the titles are identified.
+
+5) Save Processed Data:
+   Saves the cleaned dataset as processed_data.csv.
+
 
