@@ -1,4 +1,18 @@
+Module 1: Data Collection:
 1. Source - Kaggle, Github
 2. No of rows - 1,79,782
 3. Features- Title, Author, Description, Category, Date, True/False
-4. Dataset has been compiled. In some rows, Authors, Description or date are missing.
+4. Dataset has been compiled. In some rows, Authors, Description or date are missing and contains some garbage values.
+
+Module 2: Data Preprocessing and preparation:
+After preprocessing:
+1. Total count of rows in the DataFrame: 1,12,724
+    Fake: 58,498 (51.89%)
+    Real: 54,226 (48.11%)
+2. Applyed preprocessing steps like:
+    - Convert to Lowercase
+    - Remove punctuation and numbers
+    - Tokenization
+    - Removing Stopwords
+    - Lemmatization
+    - Stemming
