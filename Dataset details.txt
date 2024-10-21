@@ -1,0 +1,30 @@
+Dataset details:
+I have used a Fake news detection dataset from Kaggle.
+Link for the dataset is(Source)
+https://www.kaggle.com/datasets/jainpooja/fake-news-detection
+
+It consists of 2 csv files:
+True.csv and Fake.csv
+Each csv file has 4 Features
+Features are:
+title - heading of news
+text - news text
+subject - type of news(contains of either political, news, governmnet, left news, middle-east)
+date - published date of the news
+
+True.csv file shape
+(21417, 4) 
+21417 datapoints and 4 features
+Fake.csv file shape
+(23481, 4)
+23481 datapoints and 4 features
+
+I combined both csv files using python code and the final dataset is renamed as "dataset".
+dataset shape:
+(44898, 5)
+This dataset has 5 features 
+feature names are:
+title, text, subject, date, label
+Here label column can have one of the 2 values "0 is for fake and 1 is for real"
+
+I am using Google colab.
