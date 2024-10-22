@@ -14,3 +14,9 @@ Step 3: Data Cleaning and Preprocessing.
 -Import Seaborn and Matplotlib libraries of Python to visualize the Data.
 -Searched for the missing values in the Dataset.
 -Drop the unnecessary columns from the Dataset like 'title' and 'date'.
+-Removed the duplicated values from the dataset.
+-Performed the text preprocesing with importing nltk and stopwords.
+-Lastly checked the dataset whether balanced or not.
+
+Step 3: Exploring Deep Learning model.
+
